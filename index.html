@@ -19,12 +19,18 @@
     <link href="style.css" rel="stylesheet" media="all" />
   </head>
 
+  
   <body>
-    <h1>Open the Developer Tools to see the console output.</h1>
-    <h3>
-      Either right click and select "Inspect" or use the shortcut Option + ⌘ + J
-      (on macOS), or Shift + CTRL + J (on Windows/Linux).
-    </h3>
+  
+    <h2>Translate your messaage into pig latin</h2>
+    <textarea id ="message"  placeholder="What's your message?"  minlength="5" required></textarea>
+    <br />
+
+    <article class = "pigLatin"></article>
+  
+
+    <button id ="Submit">Translate</button>
+  </form>
     <script src="code.js"></script>
   </body>
 </html>
