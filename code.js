@@ -88,8 +88,7 @@ function encodeVowelWord(word) {
     firstletter === "e" || 
     firstletter === "i" || 
     firstletter === "o" ||  
-    firstletter === "u" || 
-    firstletter === "y")
+    firstletter === "u" )
     {
 
       word = word + "-yay"
@@ -178,8 +177,7 @@ function encodeConsonantWord(word) {
     firstletter !== "e" || 
     firstletter !== "i" || 
     firstletter !== "o" ||  
-    firstletter !== "u" || 
-    firstletter !== "y")
+    firstletter !== "u")
     {
       
       cons_phrase += word[0];
@@ -191,8 +189,7 @@ function encodeConsonantWord(word) {
       firstletter == "e" || 
       firstletter == "i" || 
       firstletter == "o" ||  
-      firstletter == "u" || 
-      firstletter == "y"){
+      firstletter == "u" ){
 
       return word + cons_phrase + "ay";
 
@@ -277,8 +274,7 @@ function encodeWord(word) {
       word[0].toLowerCase() === "e" ||
       word[0].toLowerCase() === "i" ||
       word[0].toLowerCase() === "o" ||
-      word[0].toLowerCase() === "u" ||
-      word[0].toLowerCase() === "y")
+      word[0].toLowerCase() === "u" )
     {
       return encodeVowelWord(word);
         
