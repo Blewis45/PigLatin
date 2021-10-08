@@ -100,42 +100,6 @@ function encodeVowelWord(word) {
   return word // replace this!
 }
 
-// Write your unit tests here
-
-/* let test = encodeVowelWord("-all");
-
-console.log(test);
-console.assert(test === "All-yay", JSON.stringify({
-
-  test:"encodeVowelWord(All)",
-  "expected": "All-yay",
-  "result": test
-
-  
-
-}));
-
- console.assert(test === "Ball", JSON.stringify({
-
-  "test":"encodeVowelWord(Ball)",
-  "expected": "Ball",
-  "result": test
-
-  
-
-})); 
-
-
-console.assert(test === "-all", JSON.stringify({
-
-  "test":"encodeVowelWord(-all)",
-  "expected": "-all",
-  "result": test
-
-  
-
-})); */ 
-
 let vowelKeys = Object.keys(testVowelWords);
 
 for(key of vowelKeys){

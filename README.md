@@ -1,5 +1,4 @@
 # Kenzie Unit Test Activity
 
-Complete your work inside of `code.js`
-
-Follow the instructions provided on my.kenzie.academy for this assignment.
+This is a web app that converts a phrase in the test area into pig latin. 
+I used the console.assert many times for testing all the vowels and consonants for pig latin.
