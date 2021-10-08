@@ -401,6 +401,6 @@ button.addEventListener("click",function(event){
 
   let pigLatin = encodeText(myMessage.value);
 
-  latinTag.textContent = pigLatin;
+  latinTag.textContent = "Message: " + pigLatin;
 
 })
